@@ -29,4 +29,5 @@ for i in range(n):
 
 
 plt.plot(Numero_de_pasos,Distancia_al_origen)
+plt.savefig("Browniano_2D_n.pdf")
 plt.show()
