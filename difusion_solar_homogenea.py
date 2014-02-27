@@ -29,4 +29,5 @@ for i in range(n):
     Distancia[i]=np.sqrt(x[i]**2 + y[i]**2 + z[i]**2)
 
 plt.hist(Pasos, bins=50)
+plt.savefig("Histo_difusion_solar_homogenea.pdf")
 plt.show()
